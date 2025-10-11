@@ -49,7 +49,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 #define RGX_NOHW_CORE_CLOCK_SPEED 100000000
-#define SYS_RGX_ACTIVE_POWER_LATENCY_MS (0)
+#define SYS_RGX_ACTIVE_POWER_LATENCY_MS (10)
 
 /*****************************************************************************
  * system specific data structures

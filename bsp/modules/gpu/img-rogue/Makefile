@@ -149,6 +149,7 @@ pvrsrvkm-y += \
  vmm_type_stub.o \
  uma_heap_fns.o \
  sunxi/sysconfig.o \
+ sunxi/sunxi_platform.o \
  server_rgxkicksync_bridge.o \
  rgxkicksync.o \
  pvr_sync_ioctl_common.o \
