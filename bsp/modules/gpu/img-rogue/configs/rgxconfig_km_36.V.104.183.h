@@ -1,5 +1,5 @@
 /*************************************************************************/ /*!
-@Title          RGX Core BVNC 1.82.4.5
+@Title          RGX Configuration for BVNC 36.V.104.183 (kernel defines)
 @Copyright      Copyright (c) Imagination Technologies Ltd. All Rights Reserved
 @License        Dual MIT/GPLv2
 
@@ -39,31 +39,69 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */ /**************************************************************************/
 
-#ifndef RGXCORE_KM_1_82_4_5_H
-#define RGXCORE_KM_1_82_4_5_H
+#ifndef RGXCONFIG_KM_36_V_104_183_H
+#define RGXCONFIG_KM_36_V_104_183_H
 
-/* Automatically generated file (21/01/2022 09:01:15): Do not edit manually */
-/* CS: @2503111 */
-
-/******************************************************************************
- * BVNC = 1.82.4.5
- *****************************************************************************/
-#define RGX_BVNC_KM_B 1
-#define RGX_BVNC_KM_V 82
-#define RGX_BVNC_KM_N 4
-#define RGX_BVNC_KM_C 5
+/***** Automatically generated file. Do not edit manually ********************/
 
 /******************************************************************************
- * Errata
+ * B.V.N.C Validation defines
  *****************************************************************************/
-
-
-
+#define RGX_BNC_KM_B 36
+#define RGX_BNC_KM_N 104
+#define RGX_BNC_KM_C 183
 
 /******************************************************************************
- * Enhancements
+ * DDK Defines
  *****************************************************************************/
+#define RGX_FEATURE_AXI_ACELITE
+#define RGX_FEATURE_CDM_CONTROL_STREAM_FORMAT (1U)
+#define RGX_FEATURE_COMPUTE
+#define RGX_FEATURE_COMPUTE_OVERLAP
+#define RGX_FEATURE_COREID_PER_OS
+#define RGX_FEATURE_FAULT_DECODE_VERSION (0U)
+#define RGX_FEATURE_FBCDC (50U)
+#define RGX_FEATURE_FBCDC_ALGORITHM (50U)
+#define RGX_FEATURE_FBCDC_ARCHITECTURE (7U)
+#define RGX_FEATURE_FBC_MAX_DEFAULT_DESCRIPTORS (0U)
+#define RGX_FEATURE_FBC_MAX_LARGE_DESCRIPTORS (0U)
+#define RGX_FEATURE_GPU_MULTICORE_SUPPORT
+#define RGX_FEATURE_GPU_VIRTUALISATION
+#define RGX_FEATURE_GS_RTA_SUPPORT
+#define RGX_FEATURE_IRQ_PER_OS
+#define RGX_FEATURE_LAYOUT_MARS (1U)
+#define RGX_FEATURE_MIPS
+#define RGX_FEATURE_NUM_CLUSTERS (1U)
+#define RGX_FEATURE_NUM_ISP_IPP_PIPES (6U)
+#define RGX_FEATURE_NUM_OSIDS (8U)
+#define RGX_FEATURE_NUM_RASTER_PIPES (1U)
+#define RGX_FEATURE_PBE2_IN_XE
+#define RGX_FEATURE_PBVNC_COREID_REG
+#define RGX_FEATURE_PERFBUS
+#define RGX_FEATURE_PHYS_BUS_WIDTH (36U)
+#define RGX_FEATURE_ROGUEXE
+#define RGX_FEATURE_SIMPLE_INTERNAL_PARAMETER_FORMAT
+#define RGX_FEATURE_SIMPLE_INTERNAL_PARAMETER_FORMAT_V2
+#define RGX_FEATURE_SIMPLE_PARAMETER_FORMAT_VERSION (2U)
+#define RGX_FEATURE_SLC_BANKS (1U)
+#define RGX_FEATURE_SLC_CACHE_LINE_SIZE_BITS (512U)
+#define RGX_FEATURE_SLC_SIZE_CONFIGURABLE /* Specifies the SLC is */
+                                          /* customer-configurable. True SLC */
+                                          /* size must be sourced from */
+                                          /* register. */
+#define RGX_FEATURE_SLC_SIZE_IN_KILOBYTES (16U)
+#define RGX_FEATURE_SOC_TIMER
+#define RGX_FEATURE_SYS_BUS_SECURE_RESET
+#define RGX_FEATURE_TFBC_VERSION (10U)
+#define RGX_FEATURE_TILE_SIZE_X (16U)
+#define RGX_FEATURE_TILE_SIZE_Y (16U)
+#define RGX_FEATURE_TPU_CEM_DATAMASTER_GLOBAL_REGISTERS
+#define RGX_FEATURE_TPU_DM_GLOBAL_REGISTERS
+#define RGX_FEATURE_VIRTUAL_ADDRESS_SPACE_BITS (40U)
+#define RGX_FEATURE_XE_ARCHITECTURE (1U)
+#define RGX_FEATURE_XE_MEMORY_HIERARCHY
+#define RGX_FEATURE_XPU_MAX_REGBANKS_ADDR_WIDTH (19U)
+#define RGX_FEATURE_XPU_MAX_SLAVES (3U)
+#define RGX_FEATURE_XPU_REGISTER_BROADCAST (1U)
 
-
-
-#endif /* RGXCORE_KM_1_82_4_5_H */
+#endif /* RGXCONFIG_KM_36_V_104_183_H */

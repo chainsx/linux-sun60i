@@ -1,5 +1,5 @@
 /*************************************************************************/ /*!
-@Title          RGX Configuration for BVNC 1.V.4.5 (kernel defines)
+@Title          RGX Core BVNC 36.56.104.183
 @Copyright      Copyright (c) Imagination Technologies Ltd. All Rights Reserved
 @License        Dual MIT/GPLv2
 
@@ -39,43 +39,37 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */ /**************************************************************************/
 
-#ifndef RGXCONFIG_KM_1_V_4_5_H
-#define RGXCONFIG_KM_1_V_4_5_H
+#ifndef RGXCORE_KM_36_56_104_183_H
+#define RGXCORE_KM_36_56_104_183_H
 
-/***** Automatically generated file. Do not edit manually ********************/
-
-/******************************************************************************
- * B.V.N.C Validation defines
- *****************************************************************************/
-#define RGX_BNC_KM_B 1
-#define RGX_BNC_KM_N 4
-#define RGX_BNC_KM_C 5
+/* Automatically generated file (21/01/2022 09:01:15): Do not edit manually */
+/* CS: @5942195 */
 
 /******************************************************************************
- * DDK Defines
+ * BVNC = 36.56.104.183
  *****************************************************************************/
-#define RGX_FEATURE_CDM_CONTROL_STREAM_FORMAT (1U)
-#define RGX_FEATURE_COMPUTE
-#define RGX_FEATURE_COMPUTE_OVERLAP
-#define RGX_FEATURE_FAULT_DECODE_VERSION (0U)
-#define RGX_FEATURE_FBCDC_ALGORITHM (1U)
-#define RGX_FEATURE_FBCDC_ARCHITECTURE (1U)
-#define RGX_FEATURE_FBC_MAX_DEFAULT_DESCRIPTORS (0U)
-#define RGX_FEATURE_FBC_MAX_LARGE_DESCRIPTORS (0U)
-#define RGX_FEATURE_GS_RTA_SUPPORT
-#define RGX_FEATURE_LAYOUT_MARS (0U)
-#define RGX_FEATURE_META (MTP218)
-#define RGX_FEATURE_META_COREMEM_SIZE (0U)
-#define RGX_FEATURE_NUM_CLUSTERS (4U)
-#define RGX_FEATURE_NUM_ISP_IPP_PIPES (3U)
-#define RGX_FEATURE_NUM_RASTER_PIPES (1U)
-#define RGX_FEATURE_PERFBUS
-#define RGX_FEATURE_PHYS_BUS_WIDTH (40U)
-#define RGX_FEATURE_SLC_CACHE_LINE_SIZE_BITS (512U)
-#define RGX_FEATURE_SLC_SIZE_IN_KILOBYTES (128U)
-#define RGX_FEATURE_TILE_SIZE_X (32U)
-#define RGX_FEATURE_TILE_SIZE_Y (32U)
-#define RGX_FEATURE_TLA
-#define RGX_FEATURE_VIRTUAL_ADDRESS_SPACE_BITS (40U)
+#define RGX_BVNC_KM_B 36
+#define RGX_BVNC_KM_V 56
+#define RGX_BVNC_KM_N 104
+#define RGX_BVNC_KM_C 183
 
-#endif /* RGXCONFIG_KM_1_V_4_5_H */
+/******************************************************************************
+ * Errata
+ *****************************************************************************/
+
+#define FIX_HW_BRN_63553
+#define FIX_HW_BRN_71317
+
+
+
+/******************************************************************************
+ * Enhancements
+ *****************************************************************************/
+#define HW_ERN_42290
+#define HW_ERN_42606
+#define HW_ERN_47025
+#define HW_ERN_57596
+
+
+
+#endif /* RGXCORE_KM_36_56_104_183_H */
